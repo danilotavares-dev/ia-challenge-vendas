@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+scikit-learn = "*"
+seaborn = "*"
+streamlit = "*"
+fastapi = "*"
+scipy = "*"
+ipykernel = "*"
+pydantic = "*"
+pingouin = "*"
+numpy = "*"
+uvicorn = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
